@@ -3,39 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor's Portfolio</title>
+    <title>Victor Kamau | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
-       Hello, my name is Victor Kamau.
-       Here is a link to my github <a href="https://github.com/vikandi" target="_blank">github</a>
+        <h1>Victor Kamau</h1>
+        <p><a href="https://github.com/vikandi" target="_blank">My GitHub Profile</a></p>
     </header>
-    <h3>About me</h3>
-    <p>I am currently a student at Moringa School, pursuing a degree in Full-Stack Software Development.
-    I am also Detail-oriented BSc Information Technology undergraduate (final year) with hands-on experience on web development, software development, and database management.
-     I am a quick learner and a team player with excellent communication skills. I have also built a few project with the help of AI but I am still learning and improving my skills in software development. 
-    </p>
 
-    <h3>Technical Skills</h3>
-    <p>
-Languages: JavaScript, Python, HTML, CSS
-Frameworks & Libraries: React, Node.js, Express, FastAPI
-Databases: MySQL, PostgreSQL (Supabase), Firebase
-Cloud & Tools: Git, Postman
-Other: Linux, UI/UX Design</p>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a student at Moringa School pursuing Full-Stack Software Development,
+                and a final-year BSc Information Technology undergraduate with hands-on experience in web development,
+                software development, and database management.
+                I am a quick learner and a team player with excellent communication skills.
+                I have built a few projects with the help of AI, but I am still learning and improving my skills.</p>
 
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><strong>Languages:</strong> JavaScript, Python, HTML, CSS</li>
+                <li><strong>Frameworks and Libraries:</strong> React, Node.js, Express, FastAPI</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL (Supabase), Firebase</li>
+                <li><strong>Cloud and Tools:</strong> Git, Postman</li>
+                <li><strong>Other:</strong> Linux, UI/UX Design</li>
+            </ul>
+        </section>
 
-    <h3>PROJECTS</h3>
-<ul>
-    <li><P>This is my first ever code in Moringa school where we tried making the Moringa website landing page, it was a pretty interesting experience.
-</P><a href="https://github.com/vikandi/Moringa-module1" target="_blank">Moringa-module1</a></li>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project">
+                    <h3>JavaScript Calculator</h3>
+                    <img src="images/Screenshot_2.png" alt="Calculator program output showing calculation history">
+                    <p>A calculator that adds, subtracts, multiplies and divides two numbers, stores every calculation in a history array, and displays the history on request.</p>
+                    <a href="https://github.com/vikandi/JavaScript-Calculator" target="_blank">View on GitHub</a>
+                </article>
 
-    <li><p>This is an assignment we did, we needed to create a Responsive Cat Website with Flexbox
-</p><a href="https://github.com/vikandi/phase-0-js-css-layouts-lab" target="_blank">phase-0-js-css-layouts-lab</a></li>
-</ul>
+                <article class="project">
+                    <h3>Responsive Cat Website</h3>
+                    <img src="images/Screenshot_1.png"> 
+                    <p>An assignment where I built a responsive cat website using Flexbox and CSS layouts.</p>
+                    <a href="https://github.com/vikandi/phase-0-js-css-layouts-lab" target="_blank">View on GitHub</a>
+                </article>
 
-
+                <article class="project">
+                    <h3>Managing Event Attendees Exercise</h3>
+                    <img src="images/Screenshot_3.png" alt="Event management interface showing a list of attendees and their details">
+                    <p>An exercise to manage event attendees, including adding, removing, and viewing attendee information.</p>
+                    <a href="https://github.com/vikandi/Moringa-module1" target="_blank">View on GitHub</a>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
